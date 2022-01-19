@@ -1,0 +1,51 @@
+body{
+    background-color:#222831;
+    margin: 0;
+-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+
+#top-nav-bar{
+    height:20%;
+    width:100%;
+}
+#top-nav{
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+.elementnav{
+    color: cyan;
+    text-decoration: none;
+    position: relative;
+}
+
+.elementnav:hover{
+    color: #00adb5;
+}
+
+.inner-back{
+    background-color: #393e46;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.forminput{
+    border-top-color: cyan;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+}
+.forminput:focus{
+    border: none;
+}
+.forminput:hover{
+    border-top-color:#00adb5 ;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    font-family: Courier;
+}

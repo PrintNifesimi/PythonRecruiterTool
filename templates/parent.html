@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
+</head>
+<body>
+<div id="top-nav-bar">
+    <div id="top-nav">
+<nav id="nav-elements">
+    <a class="elementnav" href="{{ url_for('directions') }}" >Directions</a>
+    <a class="elementnav" href="{{ url_for('home') }}" >Home</a
+</nav>
+</div>
+</div>
+<div class="template">
+    {% block content%}
+    {%endblock%}
+</div>
+</body>
+</html>

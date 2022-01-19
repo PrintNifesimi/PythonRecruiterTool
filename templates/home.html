@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head><title>Home</title></head>
+<body>
+{% extends "parent.html" %}
+{% block content %}
+<div  class="inner-back"><h1>Home</h1>
+<form id="input-form" method="post" action="{{url_for('sent')}}">
+    <input type="text" class="forminput" name="sitestr" placeholder="Enter Website to search" style="height: 20px; width: auto;">
+    <br>
+    <br>
+    <input type="text" class="forminput" name="keywords" placeholder="Enter Keywords to search" style="height: 20px; width: auto;">
+    <br>
+    <br>
+    <input type="text" class="forminput" name="date" placeholder="Enter date range" style="height: 20px; width: auto;">
+    <br>
+    <br>
+    <input type="text" class="forminput" name="reason" placeholder="Reason (Emails,leads)" style="height: 20px; width: auto;">
+    <br>
+    <br>
+    <input type="submit" id="submitbutton" value="Inject">
+    <br>
+    <ul style="list-style-type: disc; color: cyan; font-family: 'Courier New', Courier, monospace; font-size: medium;">
+        {%for ynwh in newhtlist%}
+            <li>{{ynwh}}</li>
+            {%endfor%}
+    </ul>
+    <br>
+    
+    </form>
+
+</div>
+{%endblock%}
+</body>
+</html>
