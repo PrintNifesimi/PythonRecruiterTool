@@ -1,3 +1,3 @@
 # RecruiterTool
-This tool helps recruiters find possible colleagues and partners based on the keywords in the desired social media you choose. 
-There is also an option to get the emails of this prospects aslong as it is availabe in the biography of the user in the specified social media profile.
+This tool utilizes Selenium to help recruiters find possible candidates, colleagues, and partners based on the keywords in your desired social media. 
+There is also an option to get the emails of these prospects as long as it is available in the user's biography in the specified social media profile.
